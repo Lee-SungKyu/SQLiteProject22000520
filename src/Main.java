@@ -19,7 +19,7 @@ public class Main {
 			String dbFile = "myfirst.db";
 			con = DriverManager.getConnection("jdbc:sqlite:" + dbFile);
 			//////////////////////////////////////////////////////////////////////////////////////////////////////////
-			/*
+			
 			// 데이터 조회
 			System.out.println("\n*** 데이터 조회 ***");
 			// 객체 생성 (Statement)
@@ -43,9 +43,9 @@ public class Main {
 			}
 			// Statement를 Close
 			stat1.close();
-			*/
+			
 			//////////////////////////////////////////////////////////////////////////////////////////////////////////
-			/*
+			
 			// 데이터 추가
 			System.out.println("\n*** 새 데이터 추가 ***");
 			Statement stat2 = con.createStatement();
@@ -62,10 +62,10 @@ public class Main {
 				System.out.println("[Error] 데이터 추가 오류!");
 			}
 			stat2.close();
-			*/
+			
 			
 			//////////////////////////////////////////////////////////////////////////////////////////////////////////
-			/*
+			
 			// 데이터 수정
 			System.out.println("\n*** 데이터 수정 ***");
 			Statement stat3 = con.createStatement();
@@ -84,9 +84,9 @@ public class Main {
 			}
 			stat3.close();
 			
-			*/
+			
 			//////////////////////////////////////////////////////////////////////////////////////////////////////////
-			/*
+			
 			// 데이터 삭제
 			System.out.println("\n*** 데이터 삭제 ***");
 			Statement stat4 = con.createStatement();
@@ -103,7 +103,7 @@ public class Main {
 				System.out.println("[Error] 데이터 삭제 오류!");
 			}
 			stat4.close();
-			*/
+			
 			//////////////////////////////////////////////////////////////////////////////////////////////////////////
 			
 			
